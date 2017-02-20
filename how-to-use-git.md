@@ -9,6 +9,7 @@ git remote add <remotename> <github repo URL>
 
 ## Fetch repo before pull
 git fetch <remotename>
+git fetch <remotename> -v (fetch in detail)
 
 ## Pull from other's repo (master branch)
 git pull <remotename> master
