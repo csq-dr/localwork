@@ -1,5 +1,5 @@
 ## Grab other's repo
-git clone <local path>
+`git clone <local path>`
 
 ## Reset remote name (in local path)
 git remote rename origin <new name>
@@ -9,6 +9,7 @@ git remote add <remotename> <github repo URL>
 
 ## Fetch repo before pull
 git fetch <remotename>
+
 git fetch <remotename> -v (fetch in detail)
 
 ## Pull from other's repo (master branch)
