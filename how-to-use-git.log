@@ -7,7 +7,7 @@ git remote rename origin <new name>
 # Or before grab, add new remove also in the local path
 git remote add <remotename> <github repo URL>
 
-# Fetch repo
+# Fetch repo before pull
 git fetch <remotename>
 
 # Pull from other's repo (master branch)
