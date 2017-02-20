@@ -1,5 +1,5 @@
 ## Grab other's repo
-`git clone <local path>`
+git clone <local path>
 
 ## Reset remote name (in local path)
 git remote rename origin <new name>
