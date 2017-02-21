@@ -1,25 +1,28 @@
-## Grab other's repo
+### Grab other's repo
 git clone <local path>
 
-## Reset remote name (in local path)
+### Reset remote name (in local path)
 git remote rename origin <new name>
 
-## Or before grab, add new remove also in the local path
+### Or before grab, add new remove also in the local path
 git remote add <remotename> <github repo URL>
 
-## Fetch repo before pull
+### Fetch repo before pull
 git fetch <remotename>
 
 git fetch <remotename> -v (fetch in detail)
 
-## Pull from other's repo (master branch)
+### Pull from other's repo (master branch)
 git pull <remotename> master
 
-## Initialize a local folder for git (in local path)
+### Initialize a local folder for git (in local path)
 git init
 
-## add new file to git
+### add new file to git
 git add <filename>
 
-## write commit
+### write commit
 git commit -m 'some comments here'
+
+### add ssh key
+see https://help.github.com/articles/connecting-to-github-with-ssh/
