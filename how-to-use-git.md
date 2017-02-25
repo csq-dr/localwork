@@ -25,4 +25,4 @@ git add <filename>
 git commit -m 'some comments here'
 
 ### add ssh key
-see https://help.github.com/articles/connecting-to-github-with-ssh/
+see [](https://help.github.com/articles/connecting-to-github-with-ssh/)
