@@ -25,7 +25,8 @@ git add <filename>
 git commit -m 'some comments here'
 
 ### add ssh key
-see https://help.github.com/articles/connecting-to-github-with-ssh/
+	+ https://help.github.com/articles/connecting-to-github-with-ssh/
+	+ working with ssh passphrase: https://help.github.com/articles/working-with-ssh-key-passphrases/
 
 ### github markdown syntax
 see https://help.github.com/articles/basic-writing-and-formatting-syntax/
