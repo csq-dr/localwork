@@ -30,3 +30,6 @@ git commit -m 'some comments here'
 
 ### github markdown syntax
 see https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+### cancel local changes
+git reset --hard
