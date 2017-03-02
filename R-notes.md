@@ -9,7 +9,7 @@
 	- melt(\<data>, level = \<level>)
 
 + Plot
-	- substitute(paste(\<expressions here>),list(\<name = values>))
+	- substitute(paste(\<expressions here>),list(\<name = values>)), check <http://vis.supstat.com/2013/04/mathematical-annotation-in-r/>
 
 ## Rmarkdown
 
