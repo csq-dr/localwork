@@ -2,7 +2,15 @@
 
 + <http://mgimond.github.io/ES218/Week02b.html>
 	- Two dots `..` tells the function to get out of the current folder (i.e. moving up a directory) before proceeding down into the working folder.
-	
+
++ match
+
++ `reshape2`
+	- melt(\<data>, level = \<level>)
+
++ Plot
+	- substitute(paste(\<expressions here>),list(\<name = values>))
+
 ## Rmarkdown
 
 + Tables: `xtable`
