@@ -1,6 +1,14 @@
 + iid distributed: `\stackrel{iid}{\sim}`
 + https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics
-	- conditional equations `\begin{cases}`
+	- conditional equations 
+	
+	```
+	\begin{cases}
+   	x(n) & 0 \leq n \leq 1 \\
+   	x(n - 1) & 0 \leq n \leq 1
+   \end{cases}
+	```
+	
 	- matrice writing
 	- etc.
 
