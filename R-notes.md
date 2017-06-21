@@ -23,3 +23,14 @@ print(tab, <options>)
 
 + `xtable` special examples
 	- no comment above table, no row numbers: `print(q1.tab, comment = FALSE, include.rownames=FALSE)`
+
+## dplyr
+
+<https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial>
+
+<http://genomicsclass.github.io/book/pages/dplyr_tutorial.html>
+
+<https://www.r-bloggers.com/data-manipulation-with-dplyr/>
+
+<https://github.com/tidyverse/dplyr>
+
