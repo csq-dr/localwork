@@ -34,3 +34,4 @@ print(tab, <options>)
 
 <https://github.com/tidyverse/dplyr>
 
++ A tip for `do.call`: `.` stands for the result before `%>%`
