@@ -35,3 +35,9 @@ print(tab, <options>)
 <https://github.com/tidyverse/dplyr>
 
 + A tip for `do.call`: `.` stands for the result before `%>%`
+
+## ggplot2
+
+legends: <http://www.sthda.com/english/wiki/ggplot2-legend-easy-steps-to-change-the-position-and-the-appearance-of-a-graph-legend-in-r-software>
+
+jitters: <http://ggplot2.tidyverse.org/reference/geom_jitter.html>
