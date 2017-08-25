@@ -1,3 +1,8 @@
+## R in console and on server
+
++ <http://thecoatlessprofessor.com/programming/working-with-r-on-a-cluster/>
+	- A article about R console commands
+
 ## R notes
 
 + <http://mgimond.github.io/ES218/Week02b.html>
