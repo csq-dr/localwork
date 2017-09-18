@@ -1,5 +1,3 @@
-ssh-login-shortcut.md
-
 1. create new ssh key
 
 * A simple one from github help
