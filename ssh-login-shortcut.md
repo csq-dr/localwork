@@ -16,4 +16,6 @@ https://confluence.atlassian.com/bitbucket/configure-multiple-ssh-identities-for
 
 https://scotch.io/tutorials/how-to-create-an-ssh-shortcut
 
+* The below link is for ssh configuration
+
 http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/
