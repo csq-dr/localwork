@@ -16,6 +16,9 @@
 + Plot
 	- substitute(paste(\<expressions here>),list(\<name = values>)), check <http://vis.supstat.com/2013/04/mathematical-annotation-in-r/>
 
++ apply function
+	- mapply is a multivariate version of sapply. mapply applies FUN to the first elements of each ... argument, the second elements, the third elements, and so on. Arguments are recycled if necessary.
+
 ## Rmarkdown
 
 + Tables: `xtable`
