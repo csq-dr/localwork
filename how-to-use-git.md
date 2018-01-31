@@ -1,5 +1,5 @@
 ### Grab other's repo
-git clone \<local path>
+ `git clone \<local path>`
 
 ### Reset remote name (in local path)
 git remote rename origin \<new name>
@@ -34,3 +34,4 @@ see <https://help.github.com/articles/basic-writing-and-formatting-syntax/>
 
 ### cancel local changes
 git reset --hard
+<http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html>
