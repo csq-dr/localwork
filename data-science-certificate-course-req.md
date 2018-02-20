@@ -1,10 +1,10 @@
 ### Bridge Course
 - [x] Introduction to Numerical Computing with Python (COMPSCI 590N)
-- Fall 2016
+  + Fall 2016
 
 ### All students must complete one of the following courses with a grade of "B" or better:
 - [x] Machine Learning (COMPSCI 589)
-- Spring 2018 (in progress)
+  + Spring 2018 (in progress)
 - [ ] Machine Learning (COMPSCI 689)
 
 ### Students need to complete one or two of the following courses with a grade of "B" or better:
@@ -17,9 +17,9 @@
 - [ ] Computational Statistics (STAT 597A) or Statistical Computing (STAT 535)
 - [ ] Intro to Probability and Math Statistics (STAT 597S)
 - [x] Mathematical Statistics I  (STAT 607)
-- Fall 2016
+  + Fall 2016
 - [x] Mathematical Statistics II  (STAT 608)
-- Spring 2017
+  + Spring 2017
 - [ ] Regression Modeling (STAT 697R or STAT 625)
 - [x] Linear Models (STAT 705)
-- Fall 2017
+  + Fall 2017
