@@ -6,6 +6,11 @@
 
 ## LSF notes
 
++ Umass cluster
+	+ available queues
+		- `condo_uma_leontine_alkema`
+		- `condo_grid`
+
 + check queues available for a user: `bqueues -u <user_name>`
 
 + Install python modules: `pip3 install --user <module_name>`
