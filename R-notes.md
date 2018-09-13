@@ -44,7 +44,6 @@ print(tab, <options>)
 
 + A tip for `do.call`: `.` stands for the result before `%>%`
 + Shortcut for the pipe operator `%>%`: `command + shift + M`
-+ 
 
 ## ggplot2
 
@@ -58,3 +57,4 @@ jitters: <http://ggplot2.tidyverse.org/reference/geom_jitter.html>
 + Each __case__ in its own __row__
 + Each __value__ in its own __cell__
 
++ `gather()`: argument `key` are column names, and `value` are data in those specific columns
