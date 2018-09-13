@@ -44,9 +44,17 @@ print(tab, <options>)
 
 + A tip for `do.call`: `.` stands for the result before `%>%`
 + Shortcut for the pipe operator `%>%`: `command + shift + M`
++ 
 
 ## ggplot2
 
 legends: <http://www.sthda.com/english/wiki/ggplot2-legend-easy-steps-to-change-the-position-and-the-appearance-of-a-graph-legend-in-r-software>
 
 jitters: <http://ggplot2.tidyverse.org/reference/geom_jitter.html>
+
+## tidyr
+
++ Each __variable__ in its own __column__
++ Each __case__ in its own __row__
++ Each __value__ in its own __cell__
+
