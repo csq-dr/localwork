@@ -62,3 +62,7 @@ jitters: <http://ggplot2.tidyverse.org/reference/geom_jitter.html>
 ## rvest: R package for web scraping
 
 <https://blog.rstudio.com/2014/11/24/rvest-easy-web-scraping-with-r/>
+
+## ggmap: retrieve raster map tiles from popular online mapping services like Google Maps
+
+<https://github.com/dkahle/ggmap>
