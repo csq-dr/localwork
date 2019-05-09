@@ -1,6 +1,6 @@
 ## 1. create new ssh key
 
-### A simple one from github help
+### A simple tutorial from github help
 
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
@@ -8,7 +8,7 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 http://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
 
-### It seems that alternative key name should follows "id_rsa_<whatever you like here>"
+### It seems that alternative key name should follows "id_rsa_\<any name you want\>"
 
 ## 2. deal with multiple ssh account
 
