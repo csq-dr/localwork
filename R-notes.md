@@ -58,3 +58,11 @@ jitters: <http://ggplot2.tidyverse.org/reference/geom_jitter.html>
 + Each __value__ in its own __cell__
 
 + `gather()`: argument `key` are column names, and `value` are data in those specific columns
+
+## rvest: R package for web scraping
+
+<https://blog.rstudio.com/2014/11/24/rvest-easy-web-scraping-with-r/>
+
+## ggmap: retrieve raster map tiles from popular online mapping services like Google Maps
+
+<https://github.com/dkahle/ggmap>
