@@ -127,3 +127,8 @@ applyKernel(matrix(1:16,4), mean,4,4)
 
 x <- foreach(a=irnorm(1, count=10), .combine='c') %:% when(a >= 0) %do% sqrt(a)
 x
+
+# a useful tool for reproducible foreach parallel loop
+# https://cran.r-project.org/web/packages/doRNG/vignettes/doRNG.pdf
+library(doRNG)
+resN <- foreach(i=1:5, .options.RNG=123) %dorng% { rnorm(3) }
