@@ -1,0 +1,68 @@
+---
+title: "Untitled"
+author: "Chuchu Wei"
+date: "2/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Discrete grid of parameter: `theta_grid`. This is a grid that includes all possibility of parameter values.
+
+Suppose the likelihood is a normal distribution, then $l(x|\mu,\sigma) \sim N(\mu, \sigma)$
+
+```{r cars}
+library(tidyverse)
+# the grid of parameter values
+theta_grid <- seq(0, 1, length.out = 1001)
+
+# the normal likelihood given we observed a data point of 0.5, sd of this point is 0.1
+l_theta <- dnorm(0.5, mean = theta_grid, sd = 0.1)
+
+# likelihood plot of theta given data point of 0.5
+qplot(x = theta_grid, y = l_theta, geom = "line") +
+  labs(
+    x = "parameter",
+    y = "likelihood"
+  )
+
+# log likelihood plot
+qplot(x = theta_grid, y = log(l_theta), geom = "line") +
+  labs(
+    x = "parameter",
+    y = "log likelihood"
+  )
+
+# suppose parameter ~ U(0.1, 0.5)
+prior_theta <- dunif(theta_grid, 0.4, 0.6)
+qplot(theta_grid, prior_theta, geom = "line")
+
+# the posterior
+qplot(x = theta_grid, y = exp(log(l_theta) + log(prior_theta)), geom = "line")
+
+# put likelihood, prior, posterior together
+tibble(
+  x = theta_grid,
+  l_theta = l_theta,
+  prior_theta = prior_theta,
+  log_post_theta = log(l_theta) + log(prior_theta),
+  post_theta = exp(log_post_theta)
+) %>% 
+  select(-log_post_theta) %>% 
+  gather(key = "parname", value = "l_theta", -x) %>% 
+  ggplot(aes(x = x, y = l_theta, color = parname)) +
+  geom_line()
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
