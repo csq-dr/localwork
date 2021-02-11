@@ -1,3 +1,3 @@
 # README
 
-Random notes.
+Random notes about R, remote server, etc.
